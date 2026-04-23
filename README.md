@@ -1,14 +1,14 @@
-# ✋ Gesture-Controlled Robotic Arm 🤖
+Gesture-Controlled Robotic Arm 🤖
 
-## 📌 Overview
+📌 Overview
 
-This project implements a real-time **gesture-controlled robotic arm** using **computer vision** and **embedded systems**. Hand gestures captured through a webcam are processed using **MediaPipe**, then translated into servo motor movements through an **Arduino**.
+This project implements a real-time **gesture-controlled robotic arm** using **Bluetooth and Arduino**. Hand gestures captured through a Flex Sensors are processed using **Accelerometer Sensor**, then translated into servo motor movements through an **Arduino**.
 
 The system demonstrates **human-computer interaction (HCI)** by enabling intuitive, touchless control of robotic hardware.
 
 ---
 
-## 🎯 Problem Statement
+🎯 Problem Statement
 
 Traditional robotic arm control systems often rely on physical interfaces such as joysticks, switches, or buttons. These methods can be restrictive, unintuitive, and less interactive for modern automation needs.
 
@@ -16,16 +16,14 @@ This project aims to:
 
 - Enable **contactless control**
 - Improve **ease of use**
-- Demonstrate **real-time AI + hardware integration**
+- Demonstrate **Bluetooth + hardware integration**
 
 ---
 
-## 🧠 System Architecture
+🧠 System Architecture
 
 ```text
-## 🧠 System Architecture
 
-```text
 Gesture Sensor / Glove → Data Acquisition (Flex / IMU / Potentiometers)
         ↓
    Microcontroller (Transmitter)
@@ -37,40 +35,10 @@ Gesture Sensor / Glove → Data Acquisition (Flex / IMU / Potentiometers)
    Microcontroller (Receiver / Robot Controller)
         ↓
    Servo & Stepper Motor Drivers → Robotic Arm Joints & Gripper
+
+
 ```
-```
-
----
-
-## ⚙️ Tech Stack
-
-### Software
-- Python
-- OpenCV
-- MediaPipe
-- NumPy
-
-### Hardware
-- Arduino Uno
-- Servo Motors
-
-### Communication
-- Serial Communication (USB)
-
----
-
-## 🔄 Workflow
-
-1. Capture live video feed using a webcam  
-2. Detect hand landmarks using MediaPipe  
-3. Identify gestures based on landmark positions  
-4. Map gestures to predefined servo angles  
-5. Send commands via serial communication  
-6. Arduino processes commands and moves servos  
-
----
-
-## 🚀 Features
+🚀 Features
 
 - Real-time gesture recognition
 - Low-latency communication
@@ -80,28 +48,8 @@ Gesture Sensor / Glove → Data Acquisition (Flex / IMU / Potentiometers)
 
 ---
 
-## 📊 Performance Metrics
 
-> Add measured results after testing.
-
-- **Frame Rate:** ~XX FPS
-- **Latency:** ~XX ms
-- **Gesture Accuracy:** ~XX%
-
----
-
-## 🎥 Demo
-
-👉 Add your demo video link here
-
-Example:
-```md
-[Project Demo](https://your-video-link-here)
-```
-
----
-
-## 📂 Project Structure
+📂 Project Structure
 
 ```text
 Gesture-Controlled-Robotic-Arm/
@@ -121,6 +69,7 @@ Gesture-Controlled-Robotic-Arm/
 - Object gripping automation
 - Error handling and motion smoothing
 
+---
 
 🧪 Applications
 
@@ -132,6 +81,7 @@ This project can be extended for use in:
 - Human-computer interaction research
 - Touchless robotic control systems
 
+---
 
 🧾 Conclusion
 

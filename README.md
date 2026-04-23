@@ -1,11 +1,11 @@
 Gesture-controlled-Robotic-Arm
 Project Overview
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 A gesture-controlled robotic arm that uses hand movements to perform real-time actions via Bluetooth. A microcontroller processes gesture data and drives servo and stepper motors for precise multi-axis movement, including object handling with a 3-finger gripper. Designed as a low-cost solution for intuitive human-machine interaction in automation and robotics.
 
 
 Problem Statement
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Traditional control methods for robotic arms rely on joysticks, buttons, or wired interfaces, which suffer from:
 
 Limited intuitiveness and natural interaction
@@ -16,6 +16,7 @@ To address these challenges, this project proposes a gesture-controlled robotic 
 
 
 Features
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✅ Gesture-based real-time control system
 ✅ Wireless operation using Bluetooth communication
 ✅ Multi-axis movement using servo and stepper motors

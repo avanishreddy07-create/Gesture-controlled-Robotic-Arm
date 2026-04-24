@@ -55,7 +55,7 @@ Gesture Sensor / Glove → Data Acquisition (Flex / IMU / Potentiometers)
 Gesture-Controlled-Robotic-Arm/
 │── src/              # Python scripts
 │── arduino/          # Arduino code
-│── docs/             # Images, diagrams
+│── docs/             
 │── README.md
 ```
 
@@ -85,7 +85,7 @@ This project can be extended for use in:
 
 🧾 Conclusion
 
-This project highlights the integration of **AI, computer vision, and embedded systems** to build an intuitive robotic control system. It serves as a foundation for future work in **automation**, **assistive robotics**, and **smart human-machine interfaces**.
+This project highlights the integration of **AI, computer vision, and embedded systems** to build an intuitive robotic control system. It serves as a foundation for future work in **automation**, **Assistive robotics**, and **Smart Human-Machine Interfaces**.
 
 ---
 

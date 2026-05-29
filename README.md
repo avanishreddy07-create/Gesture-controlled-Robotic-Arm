@@ -4,7 +4,7 @@ Gesture-Controlled Robotic Arm 🤖
 
 This project implements a real-time **gesture-controlled robotic arm** using **Bluetooth and Arduino**. Hand gestures captured through a Flex Sensors are processed using **Accelerometer Sensor**, then translated into servo motor movements through an **Arduino**.
 
-The system demonstrates **human-computer interaction (HCI)** by enabling intuitive, touchless control of robotic hardware.
+The system demonstrates **Human-Computer Interaction (HCI)** by enabling intuitive, touchless control of robotic hardware.
 
 ---
 
@@ -53,10 +53,70 @@ Gesture Sensor / Glove → Data Acquisition (Flex / IMU / Potentiometers)
 
 ```text
 Gesture-Controlled-Robotic-Arm/
-│── src/              # Python scripts
-│── arduino/          # Arduino code
-│── docs/             
-│── README.md
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── Project_Report.pdf
+│   ├── PPT_Presentation.pptx
+│   ├── Block_Diagram.png
+│   ├── Circuit_Diagram.png
+│   └── Architecture_Diagram.png
+│
+├── hardware/
+│   ├── BOM.xlsx
+│   ├── Wiring_Diagram.pdf
+│   ├── Components_List.md
+│   └── CAD_Designs/
+│
+├── firmware/
+│   ├── transmitter/
+│   │   └── gesture_transmitter.ino
+│   │
+│   ├── receiver/
+│   │   └── robotic_arm_receiver.ino
+│   │
+│   ├── config/
+│   │   └── pin_config.h
+│   │
+│   └── libraries/
+│
+├── safety_system/
+│   ├── obstacle_detection.ino
+│   ├── emergency_stop.ino
+│   └── safety_logic.md
+│
+├── algorithms/
+│   ├── gesture_recognition.md
+│   ├── motion_control.md
+│   ├── smooth_motion.md
+│   └── obstacle_detection.md
+│
+├── mobile_app/
+│   ├── Gesture_Control.aia
+│   └── Gesture_Control.apk
+│
+├── simulations/
+│   ├── Proteus/
+│   └── Tinkercad/
+│
+├── testing/
+│   ├── motion_test_results.pdf
+│   ├── bluetooth_test_results.pdf
+│   └── safety_test_results.pdf
+│
+├── media/
+│   ├── images/
+│   ├── videos/
+│   └── demo.gif
+│
+└── future_scope/
+    ├── ESP32_Integration.md
+    ├── IoT_Control.md
+    ├── Voice_Control.md
+    └── Computer_Vision.md
 ```
 
 ---
